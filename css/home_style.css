@@ -1,0 +1,69 @@
+/* ホーム画面 */
+#home_top {
+    height: 250px;
+    padding: 50px 10px 50px 10px;
+    background-image: url("../img/btob_wireframe_coding_top.png");
+}
+
+#catchphrase {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    text-align: center;
+}
+
+#catchphraseEx {
+    margin: 20px 10px 20px 10px;
+    font-size: var(--font-size-small);
+    text-align: center;
+}
+
+#contactButtonTop {
+    width: 230px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
+
+#home_feature {
+    padding: 70px 10px 0px 10px;
+}
+
+#feature1 {
+    background-image: url("../img/btob_wireframe_coding_feature1.png");
+    background-size: cover;
+    min-width: 300px;
+}
+
+#feature2 {
+    background-image: url("../img/btob_wireframe_coding_feature2.png");
+    background-size: cover;
+    min-width: 300px;
+}
+
+#feature3 {
+    background-image: url("../img/btob_wireframe_coding_feature3.png");
+    background-size: cover;
+    min-width: 300px;
+}
+
+#feature_name {
+    text-align: center;
+}
+
+#feature_title {
+    font-size: var(--font-size-large);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span[name="feature_no"] {
+    font-size: var(--font-size-large);
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    display: block;
+}
+
+#featureButtonTop {
+    width: 200px;
+    height: 30px;
+    margin: 20px 10px 20px 10px;
+}
