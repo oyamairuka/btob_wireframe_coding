@@ -1,6 +1,6 @@
 #header {
     height: 50px;
-    padding: 0px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 #header_logo {
@@ -10,12 +10,28 @@
     background-size: cover;
 }
 
-.header_menu {
+#header_menu {
+    margin: 0px;
+}
+
+#header_left_content {
+    width: 70%;
+}
+
+#header_right_content {
+    width: 30%;
+}
+
+#header_phone_number {
+    margin-right: 10px;
+}
+
+.header_menu_li {
     margin-right: 30px;
     display: inline-block;
 }
 
 .header_menu_link {
     color: black;
-    text-decoration:none;
+    text-decoration: none;
 }

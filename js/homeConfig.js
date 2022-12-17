@@ -23,3 +23,8 @@ const SERVICE = {
     "buttonCaption": "サービスを見る",
 };
 
+const CONTACT = {
+    "name": "お問い合わせ",
+    "title": "CTAキャッチコピー（コンテンツを読んだ自然な文脈の流れを考慮）",
+    "buttonCaption": "お問い合わせ",
+}

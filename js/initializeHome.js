@@ -16,6 +16,10 @@ function initialize() {
     document.getElementById('service_caption2').innerHTML = SERVICE.caption2;
     document.getElementById('service_caption3').innerHTML = SERVICE.caption3;
     document.getElementById('serviceButtonTop').textContent = SERVICE.buttonCaption;
+
+    document.getElementById('contact_name').textContent = CONTACT.name;
+    document.getElementById('contact_title').textContent = CONTACT.title;
+    document.getElementById('contactButtonBottom').textContent = CONTACT.buttonCaption;
 }
 
 initialize();
