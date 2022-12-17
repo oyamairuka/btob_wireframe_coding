@@ -1,11 +1,3 @@
-const menuList = [
-    {"name": "ホーム", "path": "home.html"},
-    {"name": "特徴", "path": "feature.html"},
-    {"name": "サービス", "path": "service.html"},
-    {"name": "機能", "path": "function.html"},
-    {"name": "会社情報", "path": "company.html"},
-];
-
 // トップ
 const catchphrase = "キャッチコピー（企業・サービス・製品を端的に表現）";
 const catchphraseEx = "企業・サービス・製品が何かを補足するコピー企業・サービス・製品が何かを補足する<br>コピー企業・サービス・製品が何かを補足するコピー。";

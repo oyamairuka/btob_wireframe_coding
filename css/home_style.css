@@ -3,6 +3,7 @@
     height: var(--top-banner-height);
     padding: 50px 10px 50px 10px;
     background-image: url("../img/btob_wireframe_coding_top.png");
+    background-size: cover;
 }
 
 #catchphrase {

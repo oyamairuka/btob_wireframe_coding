@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header_style.css">
     <link rel="stylesheet" href="css/home_style.css">
+    <script src="js/menuConfig.js"></script>
     <script src="js/homeConfig.js"></script>
-    <script src="js/functionConfig.js"></script>
-    <script src="js/initializeMenu.js" defer></script>
+    <script src="js/initializeHeader.js" defer></script>
     <script src="js/initializeHome.js" defer></script>
     <title>ホーム</title>
 </head>
 
 <body>
-    <div id="header"></div>
+    <div id="header">
+        <div id="header_container" class="left_row_container">
+            <div id="header_logo"></div>
+            <ul id="header_nemu">
+            </ul>
+        </div>
+    </div>
     <div id="home_top">
         <div class="column_container">
             <span id="catchphrase"></span>
