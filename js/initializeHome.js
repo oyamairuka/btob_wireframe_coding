@@ -10,7 +10,12 @@ function initialize() {
     document.getElementById('feature_caption3').innerHTML = FEATURE.caption3;
     document.getElementById('featureButtonTop').textContent = FEATURE.buttonCaption;
 
-    document.getElementById('home_function').innerText = "home_function";
+    document.getElementById('service_name').textContent = SERVICE.name;
+    document.getElementById('service_title').textContent = SERVICE.title;
+    document.getElementById('service_caption1').innerHTML = SERVICE.caption1;
+    document.getElementById('service_caption2').innerHTML = SERVICE.caption2;
+    document.getElementById('service_caption3').innerHTML = SERVICE.caption3;
+    document.getElementById('serviceButtonTop').textContent = SERVICE.buttonCaption;
 }
 
 initialize();
