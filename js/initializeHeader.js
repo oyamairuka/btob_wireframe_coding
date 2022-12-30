@@ -10,7 +10,6 @@ function initialize() {
         e.appendChild(link);
         document.getElementById('header_menu').appendChild(e);
     });
-    document.getElementById('footer').innerText = "footer";
 
     document.getElementById('header_phone_number').innerHTML = phoneNumber;
     document.getElementById('contactButtonHeader').textContent = headerContactButtonCaption;

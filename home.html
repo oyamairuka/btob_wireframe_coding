@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header_style.css">
+    <link rel="stylesheet" href="css/footer_style.css">
     <link rel="stylesheet" href="css/home_style.css">
     <script src="js/menuConfig.js"></script>
     <script src="js/HeaderConfig.js"></script>
+    <script src="js/footerConfig.js"></script>
     <script src="js/homeConfig.js"></script>
     <script src="js/initializeHeader.js" defer></script>
+    <script src="js/initializeFooter.js" defer></script>
     <script src="js/initializeHome.js" defer></script>
     <title>ホーム</title>
 </head>
@@ -95,7 +98,18 @@
             </div>
         </div>
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+        <div id="footer_container" class="left_row_container">
+            <div class="column_container footer_column">
+                <div id="header_logo"></div>
+                <div id="footer_company_info"></div>
+            </div>
+            <div id="footer_menu" class="column_container footer_column_unit">
+            </div>
+            <div id="footer_additional_menu" class="column_container footer_column_unit">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
