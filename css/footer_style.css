@@ -25,3 +25,22 @@
     color: white;
     text-decoration: none;
 }
+
+/* レスポンシブ設定ここから */
+@media screen and (max-width: 850px) {
+
+    /* メニュー項目非表示 */
+    #footer_menu {
+        display: none;
+    }
+
+    #footer_additional_menu {
+        display: none;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
+}
+
+/* レスポンシブ設定ここまで */

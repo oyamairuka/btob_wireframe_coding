@@ -1,6 +1,6 @@
 function initialize() {
     document.getElementById('footer_company_info').innerHTML = companyName + "<br>"
-        + postalCode + "&nbsp;&nbsp;" + address + "<br>"
+        + postalCode + "<br>" + address + "<br>"
         + copyright;
 
     menuList.forEach(element => {
